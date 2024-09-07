@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="contacts-styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom border-5 border-body border-light-subtle" style="background-color: #0d1929;">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Darnocs.</a>
+            <div>
+                <ul class="navbar-nav ms-auto">
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="contacts-background card">
+        <div class="contactmetext">
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contacts-container container justify-content-center">
+          <form id="contact-form"> <div class="contacts mt-2 mb-3">
+              <label for="nameinput" class="form-label" style="color: aliceblue;">Name</label>
+              <input type="text" class="form-control" id="nameinput" placeholder="Name" required> </div>
+            <div class="contacts mb-3">
+              <label for="emailinput" class="form-label" style="color: aliceblue;">Email address</label>
+              <input type="email" class="form-control" id="emailinput" placeholder="name@example.com" required>
+            </div>
+            <div class="contacts mb-4">
+              <label for="messageinput" class="form-label" style="color: aliceblue;">Message</label>
+              <textarea class="form-control" id="messageinput" placeholder="message" rows="3" required></textarea>
+            </div>
+            <div class="text-center mb-4">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form> </div>
+      </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
